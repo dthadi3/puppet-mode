@@ -1,4 +1,7 @@
 language: emacs-lisp
+arch:
+    - amd64
+    - ppc64le
 matrix:
   # Don’t wait for jobs that are allowed to fail
   fast_finish: true
